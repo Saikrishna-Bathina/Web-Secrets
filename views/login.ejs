@@ -1,0 +1,33 @@
+<%- include("partials/header") %>
+
+<div class="d-flex align-items-center min-vh-100 bg-light">
+  <div class="container text-center">
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-lg-5">
+        <div class="card shadow">
+          <div class="card-body p-4">
+            <h2 class="mb-4">Login</h2>
+            <form action="/login" method="post">
+              <div class="mb-3 text-start">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" name="userName" id="email" class="form-control" required>
+              </div>
+              <div class="mb-4 text-start">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" name="password" id="password" class="form-control" required>
+                <div class="form-check mt-2">
+                  <input class="form-check-input" type="checkbox" id="showPassword">
+                  <label class="form-check-label" for="showPassword">Show Password</label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-dark w-100">Login</button>
+            </form>
+          </div>
+        </div>
+        <p class="mt-3">Don't have an account? <a href="/register">Register here</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%- include("partials/footer") %>
