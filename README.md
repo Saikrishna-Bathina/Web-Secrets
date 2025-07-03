@@ -36,5 +36,5 @@ The project demonstrates the implementation of:
 ###  Logout
 - Clears cookie and redirects to login
 
-### Github Repository
-https://github.com/Saikrishna-Bathina/Web-Secrets.git
+### Deployment Link
+https://web-secrets.onrender.com/
